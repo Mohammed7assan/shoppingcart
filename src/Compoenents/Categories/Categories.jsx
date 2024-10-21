@@ -17,7 +17,7 @@ export default function Categories() {
 
   async function getData()
   {
-   let {data} =  await axios.get(`https://route-ecommerce.onrender.com/api/v1/categories`)
+   let {data} =  await axios.get(`https://ecommerce.routemisr.com/api/v1/categories`)
    setCat(data.data)
   }
 

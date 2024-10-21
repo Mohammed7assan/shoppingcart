@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { useProduct } from "../../hooks/featuredProductHook.js";
 
 export default function FeaturedProduct() {
- let allProduct = useProduct(`https://route-ecommerce.onrender.com/api/v1/products`)
+ let allProduct = useProduct(`https://ecommerce.routemisr.com/api/v1/products`)
   return (
     <div>
       <h4 className="my-5">FeaturedProduct</h4>

@@ -20,7 +20,7 @@ export default function Product() {
   const { count, name } = useContext(CounterContext);
   const [arr, setArr] = useState([]);
   const [arr2, setArr2] = useState([]);
-  let allProduct = useProduct(`https://route-ecommerce.onrender.com/api/v1/products`)
+  let allProduct = useProduct(`https://ecommerce.routemisr.com/api/v1/products`)
   //  const {getPizza} =  useContext(PizzaContext)
 
   //  async function  getPizzaFun() {
